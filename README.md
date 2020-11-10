@@ -1,2 +1,2 @@
 # CS711_2020
-game thoery course project
+Game Theory course project.
