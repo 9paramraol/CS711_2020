@@ -1,0 +1,11 @@
+simulation
+Delta=SUM(gamma*log(salary*numofhrs))+SUM(alpha*log(di))+SUM(beta*log(sum(Z-deltai)))
+
+exp-1
+alpha=1,beta=1,gamma=1
+salary->10000-3000000000(random)
+over 7 days
+
+num Of hrs working=8 final utilty= 24159.592865693296
+num Of hrs working=7 final utilty= 23838.754840897018
+num of hrs workin=6 final utility= 23802.47678579682 , 23782.489658039263,
