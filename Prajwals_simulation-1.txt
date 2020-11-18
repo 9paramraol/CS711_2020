@@ -18,3 +18,14 @@ over 7 days
 num Of hrs working=8 final utilty= 51680.772693031526
 num Of hrs working=3 final utilty= 48099.07085098523
 num of hrs workin=9 final utility= 52035.59773611328
+
+
+exp-2
+alpha=10,beta=1,gamma=1
+salary->1000-30000(random)
+over 1 day
+
+num Of hrs working=0 final utilty= 11778.71450358744
+num Of hrs working=2 final utilty= 42695.065907066586
+num Of hrs working=4
+num of hrs workin=9 final utility= 48201.159999797725
