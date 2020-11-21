@@ -1,8 +1,47 @@
 simulation
 Delta=SUM(gamma*log(salary*numofhrs))+SUM(alpha*log(di))+SUM(beta*log(sum(Z-deltai)))
 
-exp-1
-alpha=1,beta=1,gamma=1
+Fixed parameters :
+
+1. Proximity distance = 
+2. Salary range = 10,000 - 30,000.
+3. Number of days working = 6 days.
+4. Number of hours working = 8 hours.
+5. Ultimate fixed values for alpha, beta and gamma values :
+    Alpha =
+    Beta = 
+    Gamma = 
+
+
+1. al=1.0, bt=1.0 , ga=1.0.
+2. al=1.5, bt=1.9 , ga=2.0.
+3. al=2.9, bt=1.6 , ga=2.0.
+4. al=1.9, bt=1.4 , ga=2.6.
+
+
+Varying parameters:
+
+1. Grid Size : 500 x 500, 1000 x 1000. 
+2. Number of agents : 500, 1000, 5000, 10000.
+3. Experiment (Setting a and c from population):
+  3.1. a=0.00, c=1.00
+  3.2. a=0.05, c=0.95
+  3.3. a=0.10, c=0.90
+  3.4. a=0.15, c=0.85
+  3.5. a=0.20, c=0.80
+  3.6. a=0.25, c=0.75
+  3.7. a=0.30, c=0.70
+  3.8. a=0.35, c=0.65
+  3.9. a=0.40, c=0.60
+  3.10. a=0.45, c=0.55
+
+
+Experimental Setups:
+
+
+Exp:1 [(a=0.2, c=0.8),(alpha=1, beta=1, gamma=1), (500x500), (500)]
+
+
 salary->10000-3000000000(random)
 over 7 days
 
@@ -10,8 +49,8 @@ num Of hrs working=8 final utilty= 24159.592865693296
 num Of hrs working=7 final utilty= 23838.754840897018
 num of hrs workin=6 final utility= 23802.47678579682 , 23782.489658039263,
 
-exp-2
-alpha=10,beta=1,gamma=1
+Exp:2 [(a=0.2, c=0.8),(alpha=10,beta=1,gamma=1)]
+
 salary->1000-30000(random)
 over 7 days
 
@@ -19,9 +58,8 @@ num Of hrs working=8 final utilty= 51680.772693031526
 num Of hrs working=3 final utilty= 48099.07085098523
 num of hrs workin=9 final utility= 52035.59773611328
 
+Exp:2 [(a=0.2, c=0.8),(alpha=10,beta=1,gamma=1)]
 
-exp-3
-alpha=10,beta=1,gamma=1
 salary->1000-30000(random)
 over 1 day
 
