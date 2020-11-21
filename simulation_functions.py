@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from numpy import random
 import numpy as np
 
+
 """
 This function resturs true if the point lies inside the office space or else it returns false
 
