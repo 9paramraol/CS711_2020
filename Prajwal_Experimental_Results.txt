@@ -1,5 +1,7 @@
-simulation
-Delta=SUM(gamma*log(salary*numofhrs))+SUM(alpha*log(di))+SUM(beta*log(sum(Z-deltai)))
+Objective Function:
+Delta = SUM(gamma*log(salary*numofhrs)) + SUM(alpha*log(di)) + SUM(beta*log(sum(Z-deltai)))
+
+Experimental Setup :
 
 Fixed parameters :
 
@@ -36,11 +38,9 @@ Varying parameters:
   3.10. a=0.45, c=0.55
 
 
-Experimental Setups:
-
+Experimental Results:
 
 Exp:1 [(a=0.2, c=0.8),(alpha=1, beta=1, gamma=1), (500x500), (500)]
-
 
 salary->10000-3000000000(random)
 over 7 days
