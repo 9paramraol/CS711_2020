@@ -1,4 +1,4 @@
-#delta = alpha*sum(log(salary_i)-leg(penalty_i)) + beta*sum(wfh)
+#delta = alpha*sum(log(salary_i)-log(penalty_i)) + beta*sum(isolation_i)
 
 def penalty_of_agents_at_t(simu_dict,ts,proximity_dist,mask_set,mask_f):
     cat_postns = simu_dict[ts]
