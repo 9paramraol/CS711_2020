@@ -90,7 +90,7 @@ linear variation:- with mapping 10->100000(around)
 observation linear variation with alpha beta gamma and gamma is the most effective followed by alpha and beta
 based on the theory alpha weigtage should be of weightage equvalent to beta+gamma so 
 also
-alpha/5=beta/3=gamma=1/10
+alpha/5=1/2(beta/3+gamma*1/10)
 using this
 alpha=0.5,beta=0.115,gamma=0.385
 
@@ -127,37 +127,23 @@ hrs simulation1,simulation2
 9 21487.908482927825
 
 diffrence(decreasing time)=180,140,249,319,365,387,387,977,13378
-Here we can see the increase in utility is increasing with time byt after 7 hrs of work the increase in utility is very less so recommended 7-6 hrs of work and rest home quarantine.
+Here we can see the increase in utility is increasing with time byt after 7 hrs of work the increase in utility is very less so recommended 5-6 hrs of work and rest home quarantine.
 
-exp2:-
+exp3:-
 a=0.4,c=0.6,numOfDays=20
 hrs simulation1,simulation2
+0 5225.298459792412
+1 43166.17299804908
+2 46304.441213976665
+3 47603.078948778624
+4 49069.21339818196
+5 49681.48287003023
+6 50406.692938221575
+7 51355.680342073996
+8 51825.762158157064
+9 52335.612028990334
+Similar to previous result we start getting saturated values after 5-6 hrs so we can conclude we need to work for 5-6hrs taking into consideration the risk of corona.
 
 
-Previous experiments:-
-salary->10000-3000000000(random)
-over 7 days
 
-num Of hrs working=8 final utilty= 24159.592865693296
-num Of hrs working=7 final utilty= 23838.754840897018
-num of hrs workin=6 final utility= 23802.47678579682 , 23782.489658039263,
-
-Exp:2 [(a=0.2, c=0.8),(alpha=10,beta=1,gamma=1)]
-
-salary->1000-30000(random)
-over 7 days
-
-num Of hrs working=8 final utilty= 51680.772693031526
-num Of hrs working=3 final utilty= 48099.07085098523
-num of hrs workin=9 final utility= 52035.59773611328
-
-Exp:2 [(a=0.2, c=0.8),(alpha=10,beta=1,gamma=1)]
-
-salary->1000-30000(random)
-over 1 day
-
-num Of hrs working=0 final utilty= 11778.71450358744
-num Of hrs working=2 final utilty= 42695.065907066586
-num Of hrs working=4
-num of hrs workin=9 final utility= 48201.159999797725
 
