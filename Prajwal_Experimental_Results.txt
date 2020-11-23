@@ -90,7 +90,7 @@ linear variation:- with mapping 10->100000(around)
 observation linear variation with alpha beta gamma and gamma is the most effective followed by alpha and beta
 based on the theory alpha weigtage should be of weightage equvalent to beta+gamma so 
 also
-alpha/5=beta/3=gamma=1/10
+alpha/5=beta/3=gamma/10
 using this
 alpha=0.5,beta=0.115,gamma=0.385
 
@@ -126,8 +126,8 @@ hrs simulation1,simulation2
 8 21308.867380019088
 9 21487.908482927825
 
-diffrence(decreasing time)=180,140,249,319,365,387,387,977,13378
-Here we can see the increase in utility is increasing with time byt after 7 hrs of work the increase in utility is very less so recommended 7-6 hrs of work and rest home quarantine.
+diffrence(decreasing time)=180,140,249,319,365,387,590,977,13378
+Here we can see the increase in utility is increasing with time byt after 7 hrs of work the increase in utility is very less so recommended 5-6 hrs of work and rest home quarantine.
 
 exp3:-
 a=0.4,c=0.6,numOfDays=20
@@ -159,3 +159,18 @@ gamma = 10/7
 7 252785.63522369997
 8 255364.7759685639
 9 257418.30323973554
+
+exp=5
+alpha=2 beta=1.65 gamma=0.5
+num_days=1
+0 6786.192122703852
+1 14813.515222786575
+2 15660.755333607445
+3 17094.371555724527
+4 17215.104892033818
+5 17878.7385620453
+6 17739.744911193546
+7 18765.19829177026
+8 19046.058910417156
+9 19228.145627308997
+
