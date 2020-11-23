@@ -1,4 +1,6 @@
-(grid_size, number of agents, a%) : [ penalty = sum(log(di)), salart = sum(log(hr_wage*8*6))]
+utility function = alpha*(salary_sum - penalty_sum) + beta*(home quarentine payoff)
+
+(grid_size, number of agents, a%) : [ penalty = sum(log(di)), salary = sum(log(hr_wage*8*6))]
 
 (500, 500, 0):[0.0, 0.0] diff=0.0
 (500, 500, 5):[88.14481972809337, 209.2752670309539] diff=121.13044730286053
