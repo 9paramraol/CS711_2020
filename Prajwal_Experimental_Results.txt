@@ -95,6 +95,43 @@ using this
 alpha=0.5,beta=0.115,gamma=0.385
 
 Time experiments:-
+[a,c,time,numOfDays]
+exp1:-
+a=0.4,c=0.6,numOfDays=1
+hrs simulation1 simulation2
+9 6532.975031398111,6553.418065855964
+8 6534.448648980584,6521.189392864178
+7 6490.638186983925
+6 6439.290438175299
+5 6384.608059834912
+4 6319.982118747598
+3 6253.980359914353
+2 6100.65610663872
+1 5927.0904213563945
+0 4022.8490359332754
+
+diffrence=30,35,50,45,55,65,150,180,2000
+So, the more he works the more society gains as expected 
+exp2:-
+a=0.4,c=0.6,numOfDays=7
+hrs simulation1,simulation2
+0 4796.718578321136
+1 18175.682607654686
+2 19153.379167789695
+3 19843.456135628967
+4 20231.002968765337
+5 20596.29675141575
+6 20915.742000905902
+7 21165.113173184232
+8 21308.867380019088
+9 21487.908482927825
+
+diffrence(decreasing time)=180,140,249,319,365,387,387,977,13378
+Here we can see the increase in utility is increasing with time byt after 7 hrs of work the increase in utility is very less so recommended 7-6 hrs of work and rest home quarantine.
+
+exp2:-
+a=0.4,c=0.6,numOfDays=20
+hrs simulation1,simulation2
 
 
 Previous experiments:-
