@@ -1,5 +1,5 @@
 Objective Function:
-Delta = SUM(gamma*log(salary*numofhrs)) + SUM(alpha*log(di)) + SUM(beta*log(sum(Z-deltai)))
+Delta = SUM(alpha*log(salary*numofhrs)) + SUM(beta*log(di)) + SUM(gamma*log(sum(Z-deltai)))
 
 Experimental Setup :
 
@@ -37,11 +37,67 @@ Varying parameters:
   3.9. a=0.40, c=0.60
   3.10. a=0.45, c=0.55
 
-
+format suggested=Exp:1 [(a=0.2, c=0.8),(alpha=1, beta=1, gamma=1), (500x500), (500)]
 Experimental Results:
+Experiments to find out alpha,beta,gamma 
+a=0.2,b=0.0,c=0.8,1000x1000,numOfppl=1000
 
-Exp:1 [(a=0.2, c=0.8),(alpha=1, beta=1, gamma=1), (500x500), (500)]
+alpha exp:-
+alpha=1,beta=1,gamma=1
+simulation=17615.65903092536
 
+alpha=10,beta=1,gamma=1
+simulation=59154.21108373308
+
+alpha=20,beta=1,gamma=1
+simulation=104793.90096933422
+
+alpha=30,beta=1,gamma=1
+simulation=151395.78593958713
+
+linear variatiion:-with mapping 10->50000 change
+
+beta exp:-
+alpha=1,beta=1,gamma=1
+simulation=17615.65903092536
+
+alpha=1,beta=10,gamma=1
+simulation=43709.359789529066
+
+alpha=1,beta=20,gamma=1
+simulation=72659.80743534493
+
+alpha=1,beta=30,gamma=1
+simulation=101641.60759124884
+
+linear variation:- with mapping 10->30000 (around)
+
+gamma exp:-
+alpha=1,beta=1,gamma=1
+simulation=17615.65903092536
+
+alpha=1,beta=1,gamma=10
+simulation=108718.83982580047
+
+alpha=1,beta=1,gamma=20
+simulation=209951.9409237021
+
+alpha=1,beta=1,gamma=20
+simulation=311176.7547635264
+
+linear variation:- with mapping 10->100000(around)
+
+observation linear variation with alpha beta gamma and gamma is the most effective followed by alpha and beta
+based on the theory alpha weigtage should be of weightage equvalent to beta+gamma so 
+also
+alpha/5=beta/3=gamma=1/10
+using this
+alpha=0.5,beta=0.115,gamma=0.385
+
+Time experiments:-
+
+
+Previous experiments:-
 salary->10000-3000000000(random)
 over 7 days
 
