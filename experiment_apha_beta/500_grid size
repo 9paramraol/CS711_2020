@@ -1,7 +1,10 @@
 **********************************************************************************************************************************************************
-Utility function_a = alpha*(salary_sum - (R*penalty_sum))                    a% pop     [For people working]
-Utility function_c = beta*(Isolation_payoff)                                 c% pop     [For people not working]    min_wage is constant
-Utility_total = Utility_function_a + Utility_function_c
+Utility function_a = alpha*(salary_sum - (R*penalty_sum))     100   40%            a% pop     [For people working]
+Utility function_c = beta *(1/2 * salary + isolation_payoff (physical from COVID, constant) - mental health factors)    60%  80
+beta*(Isolation_payoff)                                 c% pop     [For people not working]    min_wage is constant
+
+
+Utility_total = Utility_function_a + Utility_function_c   180
 **********************************************************************************************************************************************************
 
 
